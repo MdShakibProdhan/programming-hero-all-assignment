@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    /* padding: 216px 230px 166px 845px; */
+    padding: 216px 0px 166px 0px;
+    position: relative;
+    z-index: 1;
+    /* background-image: url(/assets/image/hero-bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+
+}
+
+.header-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.header-bg img {
+    width: 100vw;
+}
+
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+/* .container-sm {
+    max-width: 525px;
+    width: 100%;
+} */
+
+.header-layout {
+    text-align: right;
+    max-width: 525px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 0 0 auto;
+}
+
+.header-title {
+    margin-bottom: 24px;
+}
+
+.header-title h1 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.header-subTitle {
+    margin-bottom: 32px;
+}
+
+.header-subTitle p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.header-btn button {
+    padding: 22px 26px;
+    border: none;
+    border-radius: 5px;
+    background: #FFFFFF;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+}
+
+/* failures css */
+.failures {
+    padding: 290px 0 130px 0;
+}
+
+.failures-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failures-content {
+    max-width: 416px;
+    width: 100%;
+}
+
+.failures-title {
+    margin-bottom: 24px;
+}
+
+.failures-title h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.failures-subTitle {
+    margin-bottom: 16px;
+}
+
+.failures-subTitle p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.failures-list-item {
+    display: flex;
+}
+
+.failures-list-item-icon {
+    margin-right: 10px;
+}
+
+.failures-list-item-text p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* Plan Css  */
+
+.plan {
+    padding-bottom: 130px;
+}
+
+.plan-title {
+    margin-bottom: 50px;
+}
+
+.plan-title h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-item {
+    text-align: center;
+    width: fit-content;
+}
+
+.plan-item-icon {
+    margin-bottom: 24px;
+}
+
+.plan-item-title {
+    margin-bottom: 16px;
+}
+
+.plan-item-title h3 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-item-subTitle p {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* keep css  */
+
+.keep {
+    padding-bottom: 130px;
+}
+
+.keep-layout {
+    padding: 59px 64px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.keep-title {
+    margin-bottom: 24px;
+    max-width: 459px;
+    width: 100%;
+}
+
+.keep-title h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.keep-btn button {
+    padding: 21px 36px;
+    border: none;
+    border-radius: 5px;
+    background: #FFFFFF;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+}
+
+.keep-bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.keep-bg-img img {
+    width: 100%;
+}
+
+.keep-bg-shape {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+}
+
+/* Footer Css  */
+
+footer {
+    padding: 130px 0;
+    background: #151414;
+}
+
+.footer-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content {
+    max-width: 485px;
+    width: 100%;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+}
+
+.footer-title h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-subTitle {
+    margin-bottom: 24px;
+}
+
+.footer-subTitle p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer-social {
+    max-width: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.footer-form {
+    max-width: 325px;
+    width: 100%;
+}
+
+.footer-form .footer-form-title {
+    margin-bottom: 31px;
+}
+
+.footer-form .footer-form-title h3 {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+
+.footer-form form input {
+    padding: 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    background: transparent;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    margin-bottom: 16px;
+}
+
+.footer-form form button {
+    padding: 21px 36px;
+    border: none;
+    background: #005FAC;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Project CSS  */
+.project {
+    padding: 60px 0 80px 0;
+}
+
+.project-head {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.project-head .project-title {
+    margin-bottom: 10px;
+}
+
+.project-head .project-title h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.project-head .project-subtitle h3 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.project-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.project-content .project-item {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 1px 41px 0px rgba(0, 0, 0, 0.45);
+
+}
+
+.project-item-thumb img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.project-item-info {
+    margin-top: 40px;
+}
+
+.project-item-title {
+    margin-bottom: 16px;
+}
+
+.project-item-title h3 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.project-item-subtitle p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #444343;
+}
